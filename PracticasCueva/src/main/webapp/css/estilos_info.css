@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";
+.flex-container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+body {
+	background-color: white;
+}
+h1 {
+	color: white;
+	float: center;
+	text-align: center;
+	font-family: Conflict of interest;
+	font-size: 35px;
+}
+#favorito {
+	border: 1px solid #99c;
+	color: #1ABC9C;
+}
+.destacado {
+	font-weight: bold;
+	color: orange;
+	text-align: right;
+}
+p{
+	font-family: verdana;
+	font-size: 14px;
+	text-align: justify;
+}
+header, nav, article, footer{
+	border: 1px solid rgb(3,73,130);
+	display: block;
+}
+header {
+	float: "center";
+	overflow: hidden;
+	background-color: rgb(3,73,130);
+	padding: 10px 5px;
+}
+nav {
+	overflow: hidden;
+	background-color: white;
+	padding: 10px 5px;
+}
+.agrupar{
+	background-color: white;
+	font-family: 'Courier New',Courier,monospace;
+	font-weight: bold;
+	width: 600px;
+	height: 600px;
+}
+footer {
+	overflow: hidden;
+	background-color: rgb(3,73,130);
+	padding: 20px 10px;
+	text-align: center;
+}
+footer {
+	background-color: rgb(3,73,130);
+	padding: 20px 10px;
+	text-align: center;
+	clear:both;
+}
+footer li{
+	list-style: none;
+	font:bold 25px verdana;
+	padding: 5px;
+	display: inline-block;
+}
+nav a {
+	float: left;
+	color: black;
+	font-family: Century;
+	text-align: center;
+	padding: 12px;
+	font-size: 20px;
+}
+nav a:hover {
+	background-color: rgb(4,98,174);
+	border:1px solid gray;
+	color: White;
+}
+nav a.active {
+	background-color: dodgerblue;
+	border:1px solid gray;
+	color: white;
+}
